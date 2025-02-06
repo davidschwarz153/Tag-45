@@ -7,8 +7,8 @@ export default function RenderCards(){
         
         cardData.map((card)=>{
             return(
-                <div>
-                    <img className="w-20 h-20" src={card.image} alt="" />
+                <div className="text-center gap-2">
+                    <img className="w-40 h-40 object-contain" src={card.image} alt="" />
                     <p>{card.title}</p>
                     <p>{card.price}</p>
                     <button>BUY NOW</button>

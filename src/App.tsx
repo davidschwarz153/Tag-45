@@ -9,13 +9,13 @@ export default function App() {
 
   return (
     <>
-     <h1>My Todos</h1>
+     <h1 className='text-2xl'>My Todos</h1>
       <ul>
         <Todos></Todos>
       </ul>
 
       <br />
-      <div>
+      <div className='flex gap-10'>
         <RenderCards></RenderCards>
       </div>
     </>
